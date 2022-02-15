@@ -1,5 +1,9 @@
 function between(a, b) {
-    // your code here
+    let myArr = [];
+    for (var i = a; i <= b; i++){
+        myArr.push(i);
+    }
+    return myArr;
 }
 
 console.log(between(1, 4)); // Return [1, 2, 3, 4]
